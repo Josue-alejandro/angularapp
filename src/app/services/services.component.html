@@ -1,0 +1,21 @@
+<main>
+    <div class="contactbutton">
+        <h1 class="title">¿Buscas Trabajo?</h1>
+        <p class="subtitle">Usa nuestro asistente virtual para postularte a alguna de nuestras vacantes.</p>
+        <a class="buttoncontact">Asistente Virtual</a>
+    </div>
+    
+    <div class="Serviciostitle">
+        <h1>Nuestros Servicios</h1>
+    </div>
+
+    <div class="cards">
+        <div class="cardServices" *ngFor="let item of servicesList">
+            <img class="serviceImg" [src]="item.image" width="430" height="300">
+            <div class="cardContent">
+                <h3 class="cardTitle">{{ item.title }}</h3>
+                <span>{{ item.content }}</span>
+            </div>
+        </div>
+    </div>
+</main>
