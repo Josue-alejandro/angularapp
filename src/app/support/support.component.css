@@ -4,9 +4,18 @@
     align-items: center;
     text-align: center;
     color: white;
-    background-color: #007FFF;
     height: 150px;
     margin-top: 4em;
+}
+
+.supportContainer{
+    background-color: #007FFF;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(../../assets/support.jpg);
+    background-blend-mode: multiply;
+    margin-top: 5em;
 }
 
 span{
@@ -18,13 +27,20 @@ h3{
     margin-bottom: 3em;
 }
 
+h1{
+    margin-bottom: 1em;
+}
+
+.supportIcon{
+    margin-bottom: 2em;
+}
+
 .supportContent{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 50vh;
+    height: 70vh;
     text-align: center;
-    background-color: #007FFF;
     color: white;
 }

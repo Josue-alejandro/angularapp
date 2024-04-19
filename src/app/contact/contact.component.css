@@ -1,10 +1,13 @@
 input{ 
-    font-size: 18px;
+    font-size: 16px;
     padding: 10px;
-    border: 1px solid gray;
+    border: 1px solid #007FFF;
     border-radius: 10px;
     outline: none;
     margin-bottom: 2em;
+    margin: 1em;
+    color: black;
+    background-color: rgb(190, 222, 255);
 }
 
 form {
@@ -13,6 +16,7 @@ form {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: #f5f5f5;
 }
 
 .btn-flip{
@@ -73,14 +77,17 @@ form {
   }
 
 textarea{
-    font-size: 18px;
+    font-size: 16px;
     padding: 10px;
-    border: 1px solid gray;
+    border: 1px solid #007FFF;
     border-radius: 10px;
     outline: none;
     margin-bottom: 2em;
+    margin: 2em;
+    width: 520px;
+    background-color: rgb(190, 222, 255);
 }
 
 h1{
-    margin-bottom: 3em;
+    margin-bottom: 1em;
 }

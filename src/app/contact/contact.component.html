@@ -1,22 +1,21 @@
 <main>
-    <form>
+    <form id="contacto">
 
         <h1>Ponte en contacto con nosotros.</h1>
 
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required />
+        <div>
+            <input type="text" id="name" placeholder="Nombre" name="name" required />
+            
+            <input type="text" id="lastName" placeholder="Apellido" name="lastName" required />
+        </div>
         
-        <label for="lastName">Last Name:</label>
-        <input type="text" id="lastName" name="lastName" required />
+        <div>
+            <input type="text" id="city" placeholder="Ciudad" name="city" required />
+            
+            <input type="email" id="email" placeholder="Correo" name="email" required />
+        </div>
         
-        <label for="city">City:</label>
-        <input type="text" id="city" name="city" required />
-        
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required />
-        
-        <label for="text">Text:</label>
-        <textarea id="text" name="text"></textarea>
+        <textarea id="text" name="text" placeholder="Escribe tu mensaje aqui..."></textarea>
         
         <a href="#" class="btn-flip" data-back="Enviar" data-front="Enviar"></a>
     </form>
